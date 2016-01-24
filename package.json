@@ -1,0 +1,35 @@
+{
+  "name": "trevid-finder",
+  "version": "1.0.0",
+  "description": "Trevid videos finder app(worker)",
+  "main": "./lib/app.js",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 10000",
+    "start": "node ./lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevid/trevid-finder.git"
+  },
+  "keywords": [
+    "trevid",
+    "worker",
+    "app",
+    "finder",
+    "video",
+    "video-finder"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevid/trevid-finder/issues"
+  },
+  "homepage": "https://github.com/trevid/trevid-finder#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.0.0",
+    "request": "^2.67.0"
+  }
+}
