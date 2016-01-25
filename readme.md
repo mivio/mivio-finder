@@ -1,3 +1,3 @@
-# trevid-finder
+# mivio-finder
 
-Trevid video finder app.
+Mivio video finder app.
